@@ -1,11 +1,8 @@
-import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 import pandas as pd
-from null_checker import missing_data
 from sklearn import tree
 
+from null_checker import missing_data
 
 """
 ここを参考にサンプルプログラムを作ってみる（https://www.codexa.net/kaggle-titanic-beginner/）
