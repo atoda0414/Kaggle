@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def missing_table(df):
+def missing_data(df):
     null_val = df.isnull().sum()
     percent = 100 * df.isnull().sum() / len(df)
     kesson_table = pd.concat([null_val, percent], axis=1)
